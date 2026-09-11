@@ -1,12 +1,13 @@
 class CognisExecutor < Formula
   desc "Standalone remote executor for Cognis"
   homepage "https://github.com/fpytloun/cognis"
+  version "0.14.2"
   if Hardware::CPU.arm?
-    url "https://github.com/fpytloun/cognis/releases/download/v0.14.0/cognis-executor-0.14.0-macos-arm64.tar.gz"
-    sha256 "533c7cb0e979d34aae261f051d14d9f2dd13cf59b48aae5415e7da2d8d8b53e2"
+    url "https://github.com/fpytloun/cognis/releases/download/v0.14.2/cognis-executor-0.14.2-macos-arm64.tar.gz"
+    sha256 "774e6a5010d1e0c08a90a32bbc5a6526159e1913743b38b8ebdc2caab44119f5"
   else
-    url "https://github.com/fpytloun/cognis/releases/download/v0.14.0/cognis-executor-0.14.0-macos-x86_64.tar.gz"
-    sha256 "85ce0e489328a6a1b7853a329552406996285367cce547d5c0f4121c5aee8bc2"
+    url "https://github.com/fpytloun/cognis/releases/download/v0.14.2/cognis-executor-0.14.2-macos-x86_64.tar.gz"
+    sha256 "3200879af927a38e5c6d1d29da7eabb65b80771e6d995cef96cc9f82ffd8d2dd"
   end
 
   depends_on "cairo"
