@@ -1,7 +1,6 @@
 class CognisExecutor < Formula
   desc "Standalone remote executor for Cognis"
   homepage "https://github.com/fpytloun/cognis"
-  version "0.14.2"
   if Hardware::CPU.arm?
     url "https://github.com/fpytloun/cognis/releases/download/v0.14.2/cognis-executor-0.14.2-macos-arm64.tar.gz"
     sha256 "774e6a5010d1e0c08a90a32bbc5a6526159e1913743b38b8ebdc2caab44119f5"
